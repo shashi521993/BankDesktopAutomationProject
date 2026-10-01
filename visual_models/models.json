@@ -1,0 +1,5 @@
+[
+  { "name": "blip2-stub", "url": "http://localhost:8001/predict", "model": "blip2" },
+  { "name": "llava-stub", "url": "http://localhost:8002/predict", "model": "llava" },
+  { "name": "minigpt4-stub", "url": "http://localhost:8003/predict", "model": "minigpt4" }
+]

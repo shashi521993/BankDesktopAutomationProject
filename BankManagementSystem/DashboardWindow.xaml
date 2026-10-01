@@ -1,0 +1,95 @@
+﻿<Window x:Class="BankManagementSystem.DashboardWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Dashboard"
+        Height="650"
+        Width="900"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize"
+        Background="#0B0B45">
+
+    <Grid>
+
+        <Border Width="550"
+                Background="White"
+                CornerRadius="15"
+                Padding="25"
+                VerticalAlignment="Center"
+                HorizontalAlignment="Center">
+
+            <StackPanel>
+
+                <!-- HEADING -->
+                <TextBlock Text="BANK MANAGEMENT SYSTEM"
+                           FontSize="30"
+                           FontWeight="Bold"
+                           Foreground="#0B0B45"
+                           HorizontalAlignment="Center"
+                           Margin="0,0,0,30"/>
+
+                <!-- CREATE ACCOUNT -->
+                <Button x:Name="BtnCreateAccount"
+                        Content="Create Account"
+                        Height="50"
+                        FontSize="16"
+                        Margin="0,0,0,15"
+                        Click="BtnCreateAccount_Click"/>
+
+                <!-- DEPOSIT -->
+                <Button x:Name="BtnDeposit"
+                        Content="Deposit Amount"
+                        Height="50"
+                        FontSize="16"
+                        Margin="0,0,0,15"
+                        Click="BtnDeposit_Click"/>
+
+                <!-- WITHDRAW -->
+                <Button x:Name="BtnWithdraw"
+                        Content="Withdraw Amount"
+                        Height="50"
+                        FontSize="16"
+                        Margin="0,0,0,15"
+                        Click="BtnWithdraw_Click"/>
+
+                <!-- CHECK BALANCE -->
+                <Button x:Name="BtnCheckBalance"
+                        Content="Check Balance"
+                        Height="50"
+                        FontSize="16"
+                        Margin="0,0,0,15"
+                        Click="BtnCheckBalance_Click"/>
+
+                <!-- MODIFY ACCOUNT -->
+                <Button x:Name="BtnModifyAccount"
+                        Content="Modify Account"
+                        Height="50"
+                        FontSize="16"
+                        Margin="0,0,0,15"
+                        Click="BtnModifyAccount_Click"/>
+
+                <!-- VIEW ACCOUNTS -->
+                <Button x:Name="BtnViewAccounts"
+                        Content="View Accounts"
+                        Height="50"
+                        FontSize="16"
+                        Margin="0,0,0,25"
+                        Click="BtnViewAccounts_Click"/>
+
+                <!-- LOGOUT -->
+                <Button x:Name="BtnLogout"
+                        Content="Logout"
+                        Height="50"
+                        FontSize="16"
+                        FontWeight="Bold"
+                        Background="Red"
+                        Foreground="White"
+                        BorderBrush="Red"
+                        Click="BtnLogout_Click"/>
+
+            </StackPanel>
+
+        </Border>
+
+    </Grid>
+
+</Window>

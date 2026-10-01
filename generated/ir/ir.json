@@ -1,0 +1,1745 @@
+﻿{
+  "schemaVersion": "1.0",
+  "generatedAt": "2026-10-01T04:39:16.6400516Z",
+  "repositoryRoot": "C:\\Users\\shash\\Downloads\\BankManagementSystem-WPF-main\\BankManagementSystem-WPF-main\\",
+  "windows": [
+    {
+      "xaml": "BankManagementSystem/App.xaml",
+      "className": "BankManagementSystem.App",
+      "events": [],
+      "commands": []
+    },
+    {
+      "xaml": "BankManagementSystem/CheckBalanceWindow.xaml",
+      "className": "BankManagementSystem.CheckBalanceWindow",
+      "events": [
+        {
+          "attribute": "Height",
+          "handler": "650",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Width",
+          "handler": "850",
+          "handlerFile": null
+        },
+        {
+          "attribute": "WindowStartupLocation",
+          "handler": "CenterScreen",
+          "handlerFile": null
+        },
+        {
+          "attribute": "ResizeMode",
+          "handler": "NoResize",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Width",
+          "handler": "500",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Height",
+          "handler": "500",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Background",
+          "handler": "White",
+          "handlerFile": null
+        },
+        {
+          "attribute": "CornerRadius",
+          "handler": "12",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Padding",
+          "handler": "25",
+          "handlerFile": null
+        },
+        {
+          "attribute": "HorizontalAlignment",
+          "handler": "Center",
+          "handlerFile": null
+        },
+        {
+          "attribute": "VerticalAlignment",
+          "handler": "Center",
+          "handlerFile": null
+        },
+        {
+          "attribute": "FontSize",
+          "handler": "36",
+          "handlerFile": null
+        },
+        {
+          "attribute": "FontWeight",
+          "handler": "Bold",
+          "handlerFile": null
+        },
+        {
+          "attribute": "HorizontalAlignment",
+          "handler": "Center",
+          "handlerFile": null
+        },
+        {
+          "attribute": "FontSize",
+          "handler": "18",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Name",
+          "handler": "txtAccountNumber",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Height",
+          "handler": "45",
+          "handlerFile": null
+        },
+        {
+          "attribute": "FontSize",
+          "handler": "18",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Height",
+          "handler": "45",
+          "handlerFile": null
+        },
+        {
+          "attribute": "FontSize",
+          "handler": "18",
+          "handlerFile": null
+        },
+        {
+          "attribute": "FontWeight",
+          "handler": "Bold",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Foreground",
+          "handler": "White",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Click",
+          "handler": "BtnCheckBalance_Click",
+          "handlerFile": "BankManagementSystem/CheckBalanceWindow.xaml.cs"
+        },
+        {
+          "attribute": "FontSize",
+          "handler": "18",
+          "handlerFile": null
+        },
+        {
+          "attribute": "FontWeight",
+          "handler": "Bold",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Name",
+          "handler": "txtName",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Height",
+          "handler": "45",
+          "handlerFile": null
+        },
+        {
+          "attribute": "FontSize",
+          "handler": "18",
+          "handlerFile": null
+        },
+        {
+          "attribute": "IsReadOnly",
+          "handler": "True",
+          "handlerFile": null
+        },
+        {
+          "attribute": "FontSize",
+          "handler": "18",
+          "handlerFile": null
+        },
+        {
+          "attribute": "FontWeight",
+          "handler": "Bold",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Name",
+          "handler": "txtBalance",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Height",
+          "handler": "45",
+          "handlerFile": null
+        },
+        {
+          "attribute": "FontSize",
+          "handler": "18",
+          "handlerFile": null
+        },
+        {
+          "attribute": "IsReadOnly",
+          "handler": "True",
+          "handlerFile": null
+        }
+      ],
+      "commands": []
+    },
+    {
+      "xaml": "BankManagementSystem/CreateAccountWindow.xaml",
+      "className": "BankManagementSystem.CreateAccountWindow",
+      "events": [
+        {
+          "attribute": "Height",
+          "handler": "620",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Width",
+          "handler": "450",
+          "handlerFile": null
+        },
+        {
+          "attribute": "WindowStartupLocation",
+          "handler": "CenterScreen",
+          "handlerFile": null
+        },
+        {
+          "attribute": "ResizeMode",
+          "handler": "NoResize",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Width",
+          "handler": "360",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Background",
+          "handler": "White",
+          "handlerFile": null
+        },
+        {
+          "attribute": "CornerRadius",
+          "handler": "10",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Padding",
+          "handler": "15",
+          "handlerFile": null
+        },
+        {
+          "attribute": "VerticalAlignment",
+          "handler": "Center",
+          "handlerFile": null
+        },
+        {
+          "attribute": "HorizontalAlignment",
+          "handler": "Center",
+          "handlerFile": null
+        },
+        {
+          "attribute": "VerticalScrollBarVisibility",
+          "handler": "Auto",
+          "handlerFile": null
+        },
+        {
+          "attribute": "FontSize",
+          "handler": "22",
+          "handlerFile": null
+        },
+        {
+          "attribute": "FontWeight",
+          "handler": "Bold",
+          "handlerFile": null
+        },
+        {
+          "attribute": "HorizontalAlignment",
+          "handler": "Center",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Name",
+          "handler": "cmbAccountType",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Height",
+          "handler": "30",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Content",
+          "handler": "Savings",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Content",
+          "handler": "Current",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Content",
+          "handler": "Salary",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Name",
+          "handler": "txtFirstName",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Height",
+          "handler": "30",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Name",
+          "handler": "txtMiddleName",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Height",
+          "handler": "30",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Name",
+          "handler": "txtLastName",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Height",
+          "handler": "30",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Name",
+          "handler": "dpDOB",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Height",
+          "handler": "30",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Text",
+          "handler": "Gender",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Name",
+          "handler": "cmbGender",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Height",
+          "handler": "30",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Content",
+          "handler": "Male",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Content",
+          "handler": "Female",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Content",
+          "handler": "Other",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Name",
+          "handler": "txtPan",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Height",
+          "handler": "30",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Name",
+          "handler": "txtCurrentAddress",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Height",
+          "handler": "30",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Name",
+          "handler": "txtPermanentAddress",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Height",
+          "handler": "30",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Name",
+          "handler": "txtMobile",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Height",
+          "handler": "30",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Height",
+          "handler": "35",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Click",
+          "handler": "BtnSave_Click",
+          "handlerFile": "BankManagementSystem/CreateAccountWindow.xaml.cs"
+        },
+        {
+          "attribute": "Content",
+          "handler": "Clear",
+          "handlerFile": "BankManagementSystem/CreateAccountWindow.xaml.cs"
+        },
+        {
+          "attribute": "Height",
+          "handler": "35",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Click",
+          "handler": "BtnClear_Click",
+          "handlerFile": "BankManagementSystem/CreateAccountWindow.xaml.cs"
+        }
+      ],
+      "commands": []
+    },
+    {
+      "xaml": "BankManagementSystem/DashboardWindow.xaml",
+      "className": "BankManagementSystem.DashboardWindow",
+      "events": [
+        {
+          "attribute": "Title",
+          "handler": "Dashboard",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Height",
+          "handler": "650",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Width",
+          "handler": "900",
+          "handlerFile": null
+        },
+        {
+          "attribute": "WindowStartupLocation",
+          "handler": "CenterScreen",
+          "handlerFile": null
+        },
+        {
+          "attribute": "ResizeMode",
+          "handler": "NoResize",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Width",
+          "handler": "550",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Background",
+          "handler": "White",
+          "handlerFile": null
+        },
+        {
+          "attribute": "CornerRadius",
+          "handler": "15",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Padding",
+          "handler": "25",
+          "handlerFile": null
+        },
+        {
+          "attribute": "VerticalAlignment",
+          "handler": "Center",
+          "handlerFile": null
+        },
+        {
+          "attribute": "HorizontalAlignment",
+          "handler": "Center",
+          "handlerFile": null
+        },
+        {
+          "attribute": "FontSize",
+          "handler": "30",
+          "handlerFile": null
+        },
+        {
+          "attribute": "FontWeight",
+          "handler": "Bold",
+          "handlerFile": null
+        },
+        {
+          "attribute": "HorizontalAlignment",
+          "handler": "Center",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Name",
+          "handler": "BtnCreateAccount",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Height",
+          "handler": "50",
+          "handlerFile": null
+        },
+        {
+          "attribute": "FontSize",
+          "handler": "16",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Click",
+          "handler": "BtnCreateAccount_Click",
+          "handlerFile": "BankManagementSystem/DashboardWindow.xaml.cs"
+        },
+        {
+          "attribute": "Name",
+          "handler": "BtnDeposit",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Height",
+          "handler": "50",
+          "handlerFile": null
+        },
+        {
+          "attribute": "FontSize",
+          "handler": "16",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Click",
+          "handler": "BtnDeposit_Click",
+          "handlerFile": "BankManagementSystem/DashboardWindow.xaml.cs"
+        },
+        {
+          "attribute": "Name",
+          "handler": "BtnWithdraw",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Height",
+          "handler": "50",
+          "handlerFile": null
+        },
+        {
+          "attribute": "FontSize",
+          "handler": "16",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Click",
+          "handler": "BtnWithdraw_Click",
+          "handlerFile": "BankManagementSystem/DashboardWindow.xaml.cs"
+        },
+        {
+          "attribute": "Name",
+          "handler": "BtnCheckBalance",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Height",
+          "handler": "50",
+          "handlerFile": null
+        },
+        {
+          "attribute": "FontSize",
+          "handler": "16",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Click",
+          "handler": "BtnCheckBalance_Click",
+          "handlerFile": "BankManagementSystem/DashboardWindow.xaml.cs"
+        },
+        {
+          "attribute": "Name",
+          "handler": "BtnModifyAccount",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Height",
+          "handler": "50",
+          "handlerFile": null
+        },
+        {
+          "attribute": "FontSize",
+          "handler": "16",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Click",
+          "handler": "BtnModifyAccount_Click",
+          "handlerFile": "BankManagementSystem/DashboardWindow.xaml.cs"
+        },
+        {
+          "attribute": "Name",
+          "handler": "BtnViewAccounts",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Height",
+          "handler": "50",
+          "handlerFile": null
+        },
+        {
+          "attribute": "FontSize",
+          "handler": "16",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Click",
+          "handler": "BtnViewAccounts_Click",
+          "handlerFile": "BankManagementSystem/DashboardWindow.xaml.cs"
+        },
+        {
+          "attribute": "Name",
+          "handler": "BtnLogout",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Content",
+          "handler": "Logout",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Height",
+          "handler": "50",
+          "handlerFile": null
+        },
+        {
+          "attribute": "FontSize",
+          "handler": "16",
+          "handlerFile": null
+        },
+        {
+          "attribute": "FontWeight",
+          "handler": "Bold",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Background",
+          "handler": "Red",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Foreground",
+          "handler": "White",
+          "handlerFile": null
+        },
+        {
+          "attribute": "BorderBrush",
+          "handler": "Red",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Click",
+          "handler": "BtnLogout_Click",
+          "handlerFile": "BankManagementSystem/DashboardWindow.xaml.cs"
+        }
+      ],
+      "commands": []
+    },
+    {
+      "xaml": "BankManagementSystem/DepositWindow.xaml",
+      "className": "BankManagementSystem.DepositWindow",
+      "events": [
+        {
+          "attribute": "Height",
+          "handler": "400",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Width",
+          "handler": "500",
+          "handlerFile": null
+        },
+        {
+          "attribute": "WindowStartupLocation",
+          "handler": "CenterScreen",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Width",
+          "handler": "350",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Height",
+          "handler": "300",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Background",
+          "handler": "White",
+          "handlerFile": null
+        },
+        {
+          "attribute": "CornerRadius",
+          "handler": "10",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Padding",
+          "handler": "20",
+          "handlerFile": null
+        },
+        {
+          "attribute": "FontSize",
+          "handler": "28",
+          "handlerFile": null
+        },
+        {
+          "attribute": "FontWeight",
+          "handler": "Bold",
+          "handlerFile": null
+        },
+        {
+          "attribute": "HorizontalAlignment",
+          "handler": "Center",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Name",
+          "handler": "txtAccountNumber",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Height",
+          "handler": "30",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Text",
+          "handler": "Amount",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Name",
+          "handler": "txtAmount",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Height",
+          "handler": "30",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Content",
+          "handler": "Deposit",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Height",
+          "handler": "35",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Background",
+          "handler": "Green",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Foreground",
+          "handler": "White",
+          "handlerFile": null
+        },
+        {
+          "attribute": "FontWeight",
+          "handler": "Bold",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Click",
+          "handler": "BtnDeposit_Click",
+          "handlerFile": "BankManagementSystem/DepositWindow.xaml.cs"
+        }
+      ],
+      "commands": []
+    },
+    {
+      "xaml": "BankManagementSystem/LoginWindow.xaml",
+      "className": "BankManagementSystem.LoginWindow",
+      "events": [
+        {
+          "attribute": "Height",
+          "handler": "600",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Width",
+          "handler": "900",
+          "handlerFile": null
+        },
+        {
+          "attribute": "WindowStartupLocation",
+          "handler": "CenterScreen",
+          "handlerFile": null
+        },
+        {
+          "attribute": "ResizeMode",
+          "handler": "NoResize",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Width",
+          "handler": "500",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Height",
+          "handler": "430",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Background",
+          "handler": "White",
+          "handlerFile": null
+        },
+        {
+          "attribute": "CornerRadius",
+          "handler": "12",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Padding",
+          "handler": "30",
+          "handlerFile": null
+        },
+        {
+          "attribute": "HorizontalAlignment",
+          "handler": "Center",
+          "handlerFile": null
+        },
+        {
+          "attribute": "VerticalAlignment",
+          "handler": "Center",
+          "handlerFile": null
+        },
+        {
+          "attribute": "FontSize",
+          "handler": "38",
+          "handlerFile": null
+        },
+        {
+          "attribute": "FontWeight",
+          "handler": "Bold",
+          "handlerFile": null
+        },
+        {
+          "attribute": "HorizontalAlignment",
+          "handler": "Center",
+          "handlerFile": null
+        },
+        {
+          "attribute": "FontSize",
+          "handler": "18",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Name",
+          "handler": "txtUserId",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Height",
+          "handler": "45",
+          "handlerFile": null
+        },
+        {
+          "attribute": "FontSize",
+          "handler": "18",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Text",
+          "handler": "Password",
+          "handlerFile": null
+        },
+        {
+          "attribute": "FontSize",
+          "handler": "18",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Name",
+          "handler": "txtPassword",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Height",
+          "handler": "45",
+          "handlerFile": null
+        },
+        {
+          "attribute": "FontSize",
+          "handler": "18",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Orientation",
+          "handler": "Horizontal",
+          "handlerFile": null
+        },
+        {
+          "attribute": "HorizontalAlignment",
+          "handler": "Center",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Content",
+          "handler": "Login",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Width",
+          "handler": "170",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Height",
+          "handler": "45",
+          "handlerFile": null
+        },
+        {
+          "attribute": "FontSize",
+          "handler": "18",
+          "handlerFile": null
+        },
+        {
+          "attribute": "FontWeight",
+          "handler": "Bold",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Foreground",
+          "handler": "White",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Click",
+          "handler": "BtnLogin_Click",
+          "handlerFile": "BankManagementSystem/LoginWindow.xaml.cs"
+        },
+        {
+          "attribute": "Content",
+          "handler": "Clear",
+          "handlerFile": "BankManagementSystem/CreateAccountWindow.xaml.cs"
+        },
+        {
+          "attribute": "Width",
+          "handler": "170",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Height",
+          "handler": "45",
+          "handlerFile": null
+        },
+        {
+          "attribute": "FontSize",
+          "handler": "18",
+          "handlerFile": null
+        },
+        {
+          "attribute": "FontWeight",
+          "handler": "Bold",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Background",
+          "handler": "Gray",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Foreground",
+          "handler": "White",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Click",
+          "handler": "BtnClear_Click",
+          "handlerFile": "BankManagementSystem/LoginWindow.xaml.cs"
+        }
+      ],
+      "commands": []
+    },
+    {
+      "xaml": "BankManagementSystem/MainWindow.xaml",
+      "className": "BankManagementSystem.MainWindow",
+      "events": [
+        {
+          "attribute": "Title",
+          "handler": "MainWindow",
+          "handlerFile": "BankManagementSystem/MainWindow.xaml.cs"
+        },
+        {
+          "attribute": "Height",
+          "handler": "450",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Width",
+          "handler": "800",
+          "handlerFile": null
+        }
+      ],
+      "commands": []
+    },
+    {
+      "xaml": "BankManagementSystem/ModifyAccountWindow.xaml",
+      "className": "BankManagementSystem.ModifyAccountWindow",
+      "events": [
+        {
+          "attribute": "Height",
+          "handler": "700",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Width",
+          "handler": "500",
+          "handlerFile": null
+        },
+        {
+          "attribute": "WindowStartupLocation",
+          "handler": "CenterScreen",
+          "handlerFile": null
+        },
+        {
+          "attribute": "ResizeMode",
+          "handler": "NoResize",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Width",
+          "handler": "420",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Background",
+          "handler": "White",
+          "handlerFile": null
+        },
+        {
+          "attribute": "CornerRadius",
+          "handler": "10",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Padding",
+          "handler": "20",
+          "handlerFile": null
+        },
+        {
+          "attribute": "VerticalAlignment",
+          "handler": "Center",
+          "handlerFile": null
+        },
+        {
+          "attribute": "VerticalScrollBarVisibility",
+          "handler": "Auto",
+          "handlerFile": null
+        },
+        {
+          "attribute": "FontSize",
+          "handler": "28",
+          "handlerFile": null
+        },
+        {
+          "attribute": "FontWeight",
+          "handler": "Bold",
+          "handlerFile": null
+        },
+        {
+          "attribute": "HorizontalAlignment",
+          "handler": "Center",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Name",
+          "handler": "txtAccountNumber",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Height",
+          "handler": "35",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Height",
+          "handler": "40",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Click",
+          "handler": "BtnSearch_Click",
+          "handlerFile": "BankManagementSystem/ModifyAccountWindow.xaml.cs"
+        },
+        {
+          "attribute": "Name",
+          "handler": "txtFirstName",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Height",
+          "handler": "35",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Name",
+          "handler": "txtMiddleName",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Height",
+          "handler": "35",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Name",
+          "handler": "txtLastName",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Height",
+          "handler": "35",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Name",
+          "handler": "txtMobile",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Height",
+          "handler": "35",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Name",
+          "handler": "txtCurrentAddress",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Height",
+          "handler": "35",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Name",
+          "handler": "txtPermanentAddress",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Height",
+          "handler": "35",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Height",
+          "handler": "40",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Click",
+          "handler": "BtnUpdate_Click",
+          "handlerFile": "BankManagementSystem/ModifyAccountWindow.xaml.cs"
+        }
+      ],
+      "commands": []
+    },
+    {
+      "xaml": "BankManagementSystem/ViewAccountsWindow.xaml",
+      "className": "BankManagementSystem.ViewAccountsWindow",
+      "events": [
+        {
+          "attribute": "Height",
+          "handler": "650",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Width",
+          "handler": "1250",
+          "handlerFile": null
+        },
+        {
+          "attribute": "WindowStartupLocation",
+          "handler": "CenterScreen",
+          "handlerFile": null
+        },
+        {
+          "attribute": "ResizeMode",
+          "handler": "NoResize",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Margin",
+          "handler": "10",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Background",
+          "handler": "White",
+          "handlerFile": null
+        },
+        {
+          "attribute": "CornerRadius",
+          "handler": "12",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Padding",
+          "handler": "15",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Height",
+          "handler": "Auto",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Row",
+          "handler": "0",
+          "handlerFile": null
+        },
+        {
+          "attribute": "FontSize",
+          "handler": "24",
+          "handlerFile": null
+        },
+        {
+          "attribute": "FontWeight",
+          "handler": "Bold",
+          "handlerFile": null
+        },
+        {
+          "attribute": "HorizontalAlignment",
+          "handler": "Center",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Name",
+          "handler": "dgAccounts",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Row",
+          "handler": "1",
+          "handlerFile": null
+        },
+        {
+          "attribute": "AutoGenerateColumns",
+          "handler": "False",
+          "handlerFile": null
+        },
+        {
+          "attribute": "IsReadOnly",
+          "handler": "True",
+          "handlerFile": null
+        },
+        {
+          "attribute": "FontSize",
+          "handler": "12",
+          "handlerFile": null
+        },
+        {
+          "attribute": "RowHeight",
+          "handler": "28",
+          "handlerFile": null
+        },
+        {
+          "attribute": "HeadersVisibility",
+          "handler": "Column",
+          "handlerFile": null
+        },
+        {
+          "attribute": "GridLinesVisibility",
+          "handler": "Horizontal",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Background",
+          "handler": "White",
+          "handlerFile": null
+        },
+        {
+          "attribute": "BorderThickness",
+          "handler": "0",
+          "handlerFile": null
+        },
+        {
+          "attribute": "HorizontalScrollBarVisibility",
+          "handler": "Auto",
+          "handlerFile": null
+        },
+        {
+          "attribute": "VerticalScrollBarVisibility",
+          "handler": "Auto",
+          "handlerFile": null
+        },
+        {
+          "attribute": "TargetType",
+          "handler": "DataGridColumnHeader",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Property",
+          "handler": "Background",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Property",
+          "handler": "Foreground",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Value",
+          "handler": "White",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Property",
+          "handler": "FontWeight",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Value",
+          "handler": "Bold",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Property",
+          "handler": "FontSize",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Value",
+          "handler": "12",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Property",
+          "handler": "Height",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Value",
+          "handler": "32",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Property",
+          "handler": "HorizontalContentAlignment",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Value",
+          "handler": "Center",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Width",
+          "handler": "75",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Header",
+          "handler": "Type",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Width",
+          "handler": "90",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Header",
+          "handler": "First",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Width",
+          "handler": "90",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Header",
+          "handler": "Middle",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Width",
+          "handler": "90",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Header",
+          "handler": "Last",
+          "handlerFile": "tools/roslyn-ingest/Program.cs"
+        },
+        {
+          "attribute": "Width",
+          "handler": "90",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Header",
+          "handler": "DOB",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Width",
+          "handler": "90",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Header",
+          "handler": "Gender",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Width",
+          "handler": "80",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Header",
+          "handler": "PAN",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Width",
+          "handler": "110",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Width",
+          "handler": "150",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Width",
+          "handler": "160",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Header",
+          "handler": "Mobile",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Width",
+          "handler": "110",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Header",
+          "handler": "Balance",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Width",
+          "handler": "90",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Header",
+          "handler": "Delete",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Width",
+          "handler": "100",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Content",
+          "handler": "Delete",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Height",
+          "handler": "24",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Width",
+          "handler": "70",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Background",
+          "handler": "Red",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Foreground",
+          "handler": "White",
+          "handlerFile": null
+        },
+        {
+          "attribute": "FontWeight",
+          "handler": "Bold",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Click",
+          "handler": "BtnDelete_Click",
+          "handlerFile": "BankManagementSystem/ViewAccountsWindow.xaml.cs"
+        }
+      ],
+      "commands": []
+    },
+    {
+      "xaml": "BankManagementSystem/WithdrawWindow.xaml",
+      "className": "BankManagementSystem.WithdrawWindow",
+      "events": [
+        {
+          "attribute": "Height",
+          "handler": "450",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Width",
+          "handler": "700",
+          "handlerFile": null
+        },
+        {
+          "attribute": "WindowStartupLocation",
+          "handler": "CenterScreen",
+          "handlerFile": null
+        },
+        {
+          "attribute": "ResizeMode",
+          "handler": "NoResize",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Width",
+          "handler": "400",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Height",
+          "handler": "300",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Background",
+          "handler": "White",
+          "handlerFile": null
+        },
+        {
+          "attribute": "CornerRadius",
+          "handler": "10",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Padding",
+          "handler": "20",
+          "handlerFile": null
+        },
+        {
+          "attribute": "HorizontalAlignment",
+          "handler": "Center",
+          "handlerFile": null
+        },
+        {
+          "attribute": "VerticalAlignment",
+          "handler": "Center",
+          "handlerFile": null
+        },
+        {
+          "attribute": "FontSize",
+          "handler": "28",
+          "handlerFile": null
+        },
+        {
+          "attribute": "FontWeight",
+          "handler": "Bold",
+          "handlerFile": null
+        },
+        {
+          "attribute": "HorizontalAlignment",
+          "handler": "Center",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Name",
+          "handler": "txtAccountNumber",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Height",
+          "handler": "35",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Name",
+          "handler": "txtAmount",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Height",
+          "handler": "35",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Content",
+          "handler": "Withdraw",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Height",
+          "handler": "40",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Background",
+          "handler": "Red",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Foreground",
+          "handler": "White",
+          "handlerFile": null
+        },
+        {
+          "attribute": "FontWeight",
+          "handler": "Bold",
+          "handlerFile": null
+        },
+        {
+          "attribute": "Click",
+          "handler": "BtnWithdraw_Click",
+          "handlerFile": "BankManagementSystem/WithdrawWindow.xaml.cs"
+        }
+      ],
+      "commands": []
+    }
+  ],
+  "classes": [
+    {
+      "file": "BankManagementSystem/CheckBalanceWindow.xaml.cs",
+      "name": "CheckBalanceWindow",
+      "baseClass": "Window",
+      "methods": [
+        "BtnCheckBalance_Click"
+      ]
+    },
+    {
+      "file": "BankManagementSystem/CreateAccountWindow.xaml.cs",
+      "name": "CreateAccountWindow",
+      "baseClass": "Window",
+      "methods": [
+        "BtnSave_Click",
+        "BtnClear_Click",
+        "ClearFields"
+      ]
+    },
+    {
+      "file": "BankManagementSystem/DashboardWindow.xaml.cs",
+      "name": "DashboardWindow",
+      "baseClass": "Window",
+      "methods": [
+        "BtnCreateAccount_Click",
+        "BtnDeposit_Click",
+        "BtnWithdraw_Click",
+        "BtnCheckBalance_Click",
+        "BtnModifyAccount_Click",
+        "BtnViewAccounts_Click",
+        "BtnLogout_Click"
+      ]
+    },
+    {
+      "file": "BankManagementSystem/DepositWindow.xaml.cs",
+      "name": "DepositWindow",
+      "baseClass": "Window",
+      "methods": [
+        "BtnDeposit_Click"
+      ]
+    },
+    {
+      "file": "BankManagementSystem/LoginWindow.xaml.cs",
+      "name": "LoginWindow",
+      "baseClass": "Window",
+      "methods": [
+        "BtnLogin_Click",
+        "BtnClear_Click"
+      ]
+    },
+    {
+      "file": "BankManagementSystem/MainWindow.xaml.cs",
+      "name": "MainWindow",
+      "baseClass": "Window",
+      "methods": []
+    },
+    {
+      "file": "BankManagementSystem/ModifyAccountWindow.xaml.cs",
+      "name": "ModifyAccountWindow",
+      "baseClass": "Window",
+      "methods": [
+        "BtnSearch_Click",
+        "BtnUpdate_Click"
+      ]
+    },
+    {
+      "file": "BankManagementSystem/ViewAccountsWindow.xaml.cs",
+      "name": "ViewAccountsWindow",
+      "baseClass": "Window",
+      "methods": [
+        "LoadAccounts",
+        "BtnDelete_Click"
+      ]
+    },
+    {
+      "file": "BankManagementSystem/WithdrawWindow.xaml.cs",
+      "name": "WithdrawWindow",
+      "baseClass": "Window",
+      "methods": [
+        "BtnWithdraw_Click"
+      ]
+    }
+  ],
+  "dbContexts": [
+    {
+      "file": "BankManagementSystem/BankModel.Context.cs",
+      "name": "BankDBEntities"
+    }
+  ],
+  "iCommandUsages": [
+    {
+      "file": "tools/roslyn-ingest/Program.cs"
+    }
+  ]
+}

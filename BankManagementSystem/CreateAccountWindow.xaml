@@ -1,0 +1,146 @@
+﻿<Window x:Class="BankManagementSystem.CreateAccountWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Create Account"
+        Height="620"
+        Width="450"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize"
+        Background="#14143C">
+
+    <Grid>
+
+        <Border Width="360"
+                Background="White"
+                CornerRadius="10"
+                Padding="15"
+                VerticalAlignment="Center"
+                HorizontalAlignment="Center">
+
+            <ScrollViewer VerticalScrollBarVisibility="Auto">
+
+                <StackPanel>
+
+                    <!-- TITLE -->
+
+                    <TextBlock Text="CREATE ACCOUNT"
+                               FontSize="22"
+                               FontWeight="Bold"
+                               HorizontalAlignment="Center"
+                               Margin="0,0,0,15"/>
+
+                    <!-- ACCOUNT TYPE -->
+
+                    <TextBlock Text="Account Type"/>
+
+                    <ComboBox x:Name="cmbAccountType"
+                              Height="30"
+                              Margin="0,5,0,10">
+
+                        <ComboBoxItem Content="Savings"/>
+                        <ComboBoxItem Content="Current"/>
+                        <ComboBoxItem Content="Salary"/>
+
+                    </ComboBox>
+
+                    <!-- FIRST NAME -->
+
+                    <TextBlock Text="First Name"/>
+
+                    <TextBox x:Name="txtFirstName"
+                             Height="30"
+                             Margin="0,5,0,10"/>
+
+                    <!-- MIDDLE NAME -->
+
+                    <TextBlock Text="Middle Name"/>
+
+                    <TextBox x:Name="txtMiddleName"
+                             Height="30"
+                             Margin="0,5,0,10"/>
+
+                    <!-- LAST NAME -->
+
+                    <TextBlock Text="Last Name"/>
+
+                    <TextBox x:Name="txtLastName"
+                             Height="30"
+                             Margin="0,5,0,10"/>
+
+                    <!-- DOB -->
+
+                    <TextBlock Text="Date Of Birth"/>
+
+                    <DatePicker x:Name="dpDOB"
+                                Height="30"
+                                Margin="0,5,0,10"/>
+
+                    <!-- GENDER -->
+
+                    <TextBlock Text="Gender"/>
+
+                    <ComboBox x:Name="cmbGender"
+                              Height="30"
+                              Margin="0,5,0,10">
+
+                        <ComboBoxItem Content="Male"/>
+                        <ComboBoxItem Content="Female"/>
+                        <ComboBoxItem Content="Other"/>
+
+                    </ComboBox>
+
+                    <!-- PAN -->
+
+                    <TextBlock Text="PAN Number"/>
+
+                    <TextBox x:Name="txtPan"
+                             Height="30"
+                             Margin="0,5,0,10"/>
+
+                    <!-- CURRENT ADDRESS -->
+
+                    <TextBlock Text="Current Address"/>
+
+                    <TextBox x:Name="txtCurrentAddress"
+                             Height="30"
+                             Margin="0,5,0,10"/>
+
+                    <!-- PERMANENT ADDRESS -->
+
+                    <TextBlock Text="Permanent Address"/>
+
+                    <TextBox x:Name="txtPermanentAddress"
+                             Height="30"
+                             Margin="0,5,0,10"/>
+
+                    <!-- MOBILE -->
+
+                    <TextBlock Text="Mobile Number"/>
+
+                    <TextBox x:Name="txtMobile"
+                             Height="30"
+                             Margin="0,5,0,15"/>
+
+                    <!-- SAVE -->
+
+                    <Button Content="Save Account"
+                            Height="35"
+                            Margin="0,5"
+                            Click="BtnSave_Click"/>
+
+                    <!-- CLEAR -->
+
+                    <Button Content="Clear"
+                            Height="35"
+                            Margin="0,5"
+                            Click="BtnClear_Click"/>
+
+                </StackPanel>
+
+            </ScrollViewer>
+
+        </Border>
+
+    </Grid>
+
+</Window>

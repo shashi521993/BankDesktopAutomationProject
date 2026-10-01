@@ -1,0 +1,28 @@
+# Test document schema for flows
+id: string # unique test id
+title: string
+businessFlowId: string
+purpose: string
+businessRationale: string
+preconditions:
+  - description: string
+testData:
+  - name: string
+    value: string
+steps:
+  - stepNumber: integer
+    action: string
+    target: string
+    data: string
+expectedResults:
+  - description: string
+traceability:
+  - file: string
+    symbol: string
+    line: integer
+criticalControls:
+  - controlId: string
+    role: string # button, textbox
+    importance: string # critical / non-critical
+ambiguityFlags:
+  - note: string

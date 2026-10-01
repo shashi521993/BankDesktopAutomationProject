@@ -1,0 +1,52 @@
+﻿<Window x:Class="BankManagementSystem.WithdrawWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Withdraw Amount"
+        Height="450"
+        Width="700"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize"
+        Background="#14143C">
+
+    <Grid>
+
+        <Border Width="400"
+                Height="300"
+                Background="White"
+                CornerRadius="10"
+                Padding="20"
+                HorizontalAlignment="Center"
+                VerticalAlignment="Center">
+
+            <StackPanel>
+
+                <TextBlock Text="WITHDRAW AMOUNT"
+                           FontSize="28"
+                           FontWeight="Bold"
+                           HorizontalAlignment="Center"
+                           Margin="0,0,0,30"/>
+
+                <TextBlock Text="Account Number"/>
+                <TextBox x:Name="txtAccountNumber"
+                         Height="35"
+                         Margin="0,5,0,15"/>
+
+                <TextBlock Text="Withdraw Amount"/>
+                <TextBox x:Name="txtAmount"
+                         Height="35"
+                         Margin="0,5,0,25"/>
+
+                <Button Content="Withdraw"
+                        Height="40"
+                        Background="Red"
+                        Foreground="White"
+                        FontWeight="Bold"
+                        Click="BtnWithdraw_Click"/>
+
+            </StackPanel>
+
+        </Border>
+
+    </Grid>
+
+</Window>

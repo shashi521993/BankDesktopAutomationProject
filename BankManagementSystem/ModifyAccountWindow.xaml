@@ -1,0 +1,80 @@
+﻿<Window x:Class="BankManagementSystem.ModifyAccountWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        Title="Modify Account"
+        Height="700"
+        Width="500"
+        WindowStartupLocation="CenterScreen"
+        ResizeMode="NoResize"
+        Background="#0B0B45">
+
+    <Grid>
+
+        <Border Width="420"
+                Background="White"
+                CornerRadius="10"
+                Padding="20"
+                VerticalAlignment="Center">
+
+            <ScrollViewer VerticalScrollBarVisibility="Auto">
+
+                <StackPanel>
+
+                    <TextBlock Text="MODIFY ACCOUNT"
+                               FontSize="28"
+                               FontWeight="Bold"
+                               HorizontalAlignment="Center"
+                               Margin="0,0,0,20"/>
+
+                    <TextBlock Text="Account Number"/>
+                    <TextBox x:Name="txtAccountNumber"
+                             Height="35"
+                             Margin="0,5,0,15"/>
+
+                    <Button Content="Search Account"
+                            Height="40"
+                            Click="BtnSearch_Click"
+                            Margin="0,0,0,20"/>
+
+                    <TextBlock Text="First Name"/>
+                    <TextBox x:Name="txtFirstName"
+                             Height="35"
+                             Margin="0,5,0,15"/>
+
+                    <TextBlock Text="Middle Name"/>
+                    <TextBox x:Name="txtMiddleName"
+                             Height="35"
+                             Margin="0,5,0,15"/>
+
+                    <TextBlock Text="Last Name"/>
+                    <TextBox x:Name="txtLastName"
+                             Height="35"
+                             Margin="0,5,0,15"/>
+
+                    <TextBlock Text="Mobile Number"/>
+                    <TextBox x:Name="txtMobile"
+                             Height="35"
+                             Margin="0,5,0,15"/>
+
+                    <TextBlock Text="Current Address"/>
+                    <TextBox x:Name="txtCurrentAddress"
+                             Height="35"
+                             Margin="0,5,0,15"/>
+
+                    <TextBlock Text="Permanent Address"/>
+                    <TextBox x:Name="txtPermanentAddress"
+                             Height="35"
+                             Margin="0,5,0,20"/>
+
+                    <Button Content="Update Account"
+                            Height="40"
+                            Click="BtnUpdate_Click"/>
+
+                </StackPanel>
+
+            </ScrollViewer>
+
+        </Border>
+
+    </Grid>
+</Window>

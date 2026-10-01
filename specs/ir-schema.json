@@ -1,0 +1,46 @@
+{
+  "$schema": "http://json-schema.org/draft-07/schema#",
+  "title": "IR Schema for BankManagementSystem ingestion",
+  "type": "object",
+  "required": ["schemaVersion","generatedAt","repositoryRoot","windows","classes","dbContexts"],
+  "properties": {
+    "schemaVersion": { "type": "string" },
+    "generatedAt": { "type": "string", "format": "date-time" },
+    "repositoryRoot": { "type": "string" },
+    "windows": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "required": ["xaml","className"],
+        "properties": {
+          "xaml": { "type": "string" },
+          "className": { "type": "string" },
+          "events": {
+            "type": "array",
+            "items": { "type": "object", "properties": { "attribute": { "type": "string" }, "handler": { "type": "string" } } }
+          },
+          "commands": {
+            "type": "array",
+            "items": { "type": "object", "properties": { "binding": { "type": "string" } } }
+          }
+        }
+      }
+    },
+    "classes": {
+      "type": "array",
+      "items": {
+        "type": "object",
+        "properties": {
+          "file": { "type": "string" },
+          "name": { "type": "string" },
+          "baseClass": { "type": "string" },
+          "methods": { "type": "array", "items": { "type": "string" } }
+        }
+      }
+    },
+    "dbContexts": {
+      "type": "array",
+      "items": { "type": "object", "properties": { "file": { "type": "string" }, "name": { "type": "string" } } }
+    }
+  }
+}

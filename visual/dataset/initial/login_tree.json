@@ -1,0 +1,133 @@
+{
+  "Name": "Bank Login",
+  "AutomationId": "",
+  "ControlType": "Window",
+  "BoundingRectangle": "{X=318,Y=108,Width=900,Height=600}",
+  "Children": [
+    {
+      "Name": null,
+      "AutomationId": "TitleBar",
+      "ControlType": "TitleBar",
+      "BoundingRectangle": "{X=342,Y=110,Width=870,Height=28}",
+      "Children": [
+        {
+          "Name": "System",
+          "AutomationId": "MenuBar",
+          "ControlType": "MenuBar",
+          "BoundingRectangle": "{X=326,Y=115,Width=22,Height=22}",
+          "Children": [
+            {
+              "Name": "System",
+              "AutomationId": null,
+              "ControlType": "MenuItem",
+              "BoundingRectangle": "{X=326,Y=115,Width=22,Height=22}",
+              "Children": []
+            }
+          ]
+        },
+        {
+          "Name": "Close",
+          "AutomationId": null,
+          "ControlType": "Button",
+          "BoundingRectangle": "{X=1177,Y=109,Width=35,Height=30}",
+          "Children": []
+        }
+      ]
+    },
+    {
+      "Name": "BANK LOGIN",
+      "AutomationId": "",
+      "ControlType": "Text",
+      "BoundingRectangle": "{X=652,Y=234,Width=233,Height=50}",
+      "Children": []
+    },
+    {
+      "Name": "User ID",
+      "AutomationId": "",
+      "ControlType": "Text",
+      "BoundingRectangle": "{X=549,Y=325,Width=440,Height=24}",
+      "Children": []
+    },
+    {
+      "Name": "",
+      "AutomationId": "txtUserId",
+      "ControlType": "Edit",
+      "BoundingRectangle": "{X=549,Y=354,Width=440,Height=45}",
+      "Children": [
+        {
+          "Name": "",
+          "AutomationId": "VerticalScrollBar",
+          "ControlType": "ScrollBar",
+          "BoundingRectangle": "{X=0,Y=0,Width=0,Height=0}",
+          "Children": []
+        },
+        {
+          "Name": "",
+          "AutomationId": "HorizontalScrollBar",
+          "ControlType": "ScrollBar",
+          "BoundingRectangle": "{X=0,Y=0,Width=0,Height=0}",
+          "Children": []
+        }
+      ]
+    },
+    {
+      "Name": "Password",
+      "AutomationId": "",
+      "ControlType": "Text",
+      "BoundingRectangle": "{X=549,Y=424,Width=440,Height=24}",
+      "Children": []
+    },
+    {
+      "Name": "",
+      "AutomationId": "txtPassword",
+      "ControlType": "Edit",
+      "BoundingRectangle": "{X=549,Y=453,Width=440,Height=46}",
+      "Children": [
+        {
+          "Name": "",
+          "AutomationId": "VerticalScrollBar",
+          "ControlType": "ScrollBar",
+          "BoundingRectangle": "{X=0,Y=0,Width=0,Height=0}",
+          "Children": []
+        },
+        {
+          "Name": "",
+          "AutomationId": "HorizontalScrollBar",
+          "ControlType": "ScrollBar",
+          "BoundingRectangle": "{X=0,Y=0,Width=0,Height=0}",
+          "Children": []
+        }
+      ]
+    },
+    {
+      "Name": "Login",
+      "AutomationId": "",
+      "ControlType": "Button",
+      "BoundingRectangle": "{X=591,Y=533,Width=170,Height=46}",
+      "Children": [
+        {
+          "Name": "Login",
+          "AutomationId": "",
+          "ControlType": "Text",
+          "BoundingRectangle": "{X=652,Y=543,Width=47,Height=24}",
+          "Children": []
+        }
+      ]
+    },
+    {
+      "Name": "Clear",
+      "AutomationId": "",
+      "ControlType": "Button",
+      "BoundingRectangle": "{X=776,Y=533,Width=170,Height=46}",
+      "Children": [
+        {
+          "Name": "Clear",
+          "AutomationId": "",
+          "ControlType": "Text",
+          "BoundingRectangle": "{X=839,Y=543,Width=43,Height=24}",
+          "Children": []
+        }
+      ]
+    }
+  ]
+}
