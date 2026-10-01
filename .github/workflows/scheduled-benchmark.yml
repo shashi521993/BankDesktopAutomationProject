@@ -25,6 +25,47 @@ jobs:
           python -m pip install --upgrade pip
           pip install -r visual_models/requirements.txt
 
+      - name: Start docker-compose stubs (if Docker available)
+        run: |
+          echo "Checking for docker-compose or docker..."
+          if command -v docker-compose >/dev/null 2>&1; then
+            docker-compose -f visual_models/docker-compose.yml up -d
+          elif command -v docker >/dev/null 2>&1 && docker compose version >/dev/null 2>&1; then
+            docker compose -f visual_models/docker-compose.yml up -d
+          else
+            echo "Docker not available on runner; skipping docker-compose"
+          fi
+
+      - name: Wait for model endpoints
+        run: |
+          python - <<'PY'
+          import json, time, sys
+          import requests
+          from pathlib import Path
+
+          models_file = Path('visual_models/models.json')
+          if not models_file.exists():
+              print('models.json not found; skipping health checks')
+              sys.exit(0)
+          models = json.load(open(models_file))
+          for m in models:
+              url = m.get('url')
+              if not url:
+                  continue
+              ok = False
+              for i in range(30):
+                  try:
+                      r = requests.get(url, timeout=3)
+                      if r.status_code in (200,400,405):
+                          ok = True
+                          break
+                  except Exception:
+                      pass
+                  time.sleep(2)
+              if not ok:
+                  print(f'Warning: {url} did not respond after retries')
+          PY
+
       - name: Run benchmark runner
         run: |
           python visual_models/benchmark_runner.py
@@ -44,3 +85,14 @@ jobs:
         with:
           name: visual-benchmark-summary
           path: visual/benchmark/summary.json
+
+      - name: Stop docker-compose stubs (always)
+        if: always()
+        run: |
+          if command -v docker-compose >/dev/null 2>&1; then
+            docker-compose -f visual_models/docker-compose.yml down
+          elif command -v docker >/dev/null 2>&1 && docker compose version >/dev/null 2>&1; then
+            docker compose -f visual_models/docker-compose.yml down
+          else
+            echo "Docker not available; nothing to stop"
+          fi
