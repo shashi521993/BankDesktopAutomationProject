@@ -4,6 +4,8 @@
 	<OutputType>Library</OutputType>
 	<RootNamespace>FlaUITests</RootNamespace>
 	  <LangVersion>latest</LangVersion>
+	  <!-- Mark as a test project so Visual Studio test discovery recognizes it reliably -->
+	  <IsTestProject>true</IsTestProject>
   </PropertyGroup>
   <ItemGroup>
 	<PackageReference Include="FlaUI.Core" Version="3.2.0" />
