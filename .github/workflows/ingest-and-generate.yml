@@ -1,0 +1,42 @@
+name: Ingest and Generate
+
+on:
+  pull_request:
+    branches: [ main ]
+
+jobs:
+  build:
+    runs-on: ubuntu-latest
+    timeout-minutes: 30
+    steps:
+      - name: Checkout
+        uses: actions/checkout@v4
+
+      - name: Setup .NET
+        uses: actions/setup-dotnet@v3
+        with:
+          dotnet-version: '6.x'
+
+      - name: Restore
+        run: dotnet restore
+
+      - name: Build
+        run: dotnet build --configuration Release --no-restore
+
+      - name: Run roslyn-ingest
+        run: dotnet run --project tools/roslyn-ingest/roslyn-ingest.csproj -- "${{ github.workspace }}"
+
+      - name: Run test-doc-generator
+        run: dotnet run --project tools/test-doc-generator/test-doc-generator.csproj -- "${{ github.workspace }}"
+
+      - name: Upload generated IR
+        uses: actions/upload-artifact@v4
+        with:
+          name: generated-ir
+          path: generated/ir
+
+      - name: Upload generated tests
+        uses: actions/upload-artifact@v4
+        with:
+          name: generated-tests
+          path: generated/tests
