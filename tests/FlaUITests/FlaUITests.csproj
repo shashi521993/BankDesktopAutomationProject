@@ -10,8 +10,7 @@
 	<PackageReference Include="FlaUI.Core" Version="3.2.0" />
 	<PackageReference Include="FlaUI.UIA3" Version="3.2.0" />
 	<PackageReference Include="NUnit" Version="3.13.3" />
-	<!-- Add test adapter and test SDK to enable discovery via vstest / Test Explorer. Updated to versions compatible with recent VS runtimes. -->
-	<PackageReference Include="NUnit3TestAdapter" Version="4.4.0" />
-	<PackageReference Include="Microsoft.NET.Test.Sdk" Version="17.11.0" />
+	<!-- For .NET Framework test projects prefer the Visual Studio NUnit3 Test Adapter extension.
+		 Remove package-based adapters to avoid engine/runtime detection issues. -->
   </ItemGroup>
 </Project>
